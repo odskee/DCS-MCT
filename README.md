@@ -62,10 +62,10 @@ You can create as many profiles as you wish and for any purpose.  For public use
 
 <br />
 
-# Tactical Results
-Once you've participated in a TacOp (and have a TacView file for it), you can use MCT to build a TecRes package - a structured json file that provides details on your flight such as time and landings.  As MCT continues to be developed, further matching to MCT routes and goals will provide a better insight into the success or failure of each package asset. 
+# TacOp's Board
+This is where you can find available TacOp's, both public and squadron.  If you do not have a squadron profile, you will not see the squadron TacOp's section.  You can browse available TacOp's and join any that still have 'doors open'.
 
 <br />
 
-# TacOp's Board
-This is where you can find available TacOp's, both public and squadron.  If you do not have a squadron profile, you will not see the squadron TacOp's section.  You can browse available TacOp's and join any that still have 'doors open'.
+# Tactical Results
+Once you've participated in a TacOp (and have a TacView file for it), you can use MCT to build a TecRes package - a structured json file that provides details on your flight such as time and landings.  As MCT continues to be developed, further matching to MCT routes and goals will provide a better insight into the success or failure of each package asset. 
