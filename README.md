@@ -8,6 +8,11 @@ MCT is currently in Beta phase 1 and is only available on an invite basis.  Whil
 
 <br />
 
+# How to Join
+To find out more and join the discsussion on MCT, head over to our Discord at https://discord.gg/pBqbPpqeTZ
+
+<br />
+
 # Appeal
 MCT is built by a single developer largely as a passion project and the decision to licence MCT was not taken lightly.  A small amount of funds made through licensing will cover the hosting and on-going upkeep / improvements to MCT.  The larger portion will be made directly available to AndCare UK; a new not-for-profit startup (by the developer of MCT) whose aim is to provide civilian reintegration training for experienced members of the Armed Forces using modern approaches to both mental health and digital / virtual technologies and environments.
 
