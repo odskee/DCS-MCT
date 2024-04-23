@@ -28,8 +28,6 @@ When building a TacOp, you can add any amount of additional Intel separated into
 ## Packages & Assets
 A tactical operation will typically contain multiple ground and aerial assets of varying roles, such as JTAC's, E3 & AAR and may be a combination of human and / or AI controlled.  These assets are grouped into packages; with each package sharing a common objective.  Typically, a package would consist of one or more E3's, AAR tankers, strike and fighter assets, search and rescue etc.  MCT allows you to structure your packages how you see fit, such as grouping AI assets like AAR and E3 to their own package.
 
-<br />
-
 When adding an aerial package asset you can optionally specify a min and / or max quantity (between 1 and 4 inclusive) that this group must contain - for AI assets, this specifies the number of individual planes in the group as specified by the mission creator.
 
 ## Service Points
@@ -40,10 +38,10 @@ Once one or more service points have been added, the associated information such
 ## Routes
 Once you've got some packages (and package assets) to work with, you can start building waypoints (their route).  A dedicated route builder is in development and MCT also supports using the DCS Mission editor to import these.
 
-## Route Builder
+### Route Builder
 WIP
 
-## DCS Mission Editor
+### DCS Mission Editor
 To use the Mission Editor approach, MCT will generate a .miz file in your DCS Saved Games\Missions directory with the package assets you've declared.  You can then build the route as you usually would within DCS for each asset - MCT will add all assets, including AI controlled, but you are not required to add any waypoints if they are not known (adding waypoints for an AI flight makes AI route information available to MCT).
 
 <br />
