@@ -53,6 +53,7 @@ If you've created an MCT account (and attached your key), you can post your TacO
 
 Once your TacOp has been posted, you will be able to see all participants from the design stage - allowing you to post your Op as a concept and continue building around the availability and quantity of patched players.  Note for public posted TacOp's, players are assigned to package assets by themselves while squadron Op's are handled with permissions.
 
+<br /> <br />
 
 # Profiles and Patching
 MCT is primarily designed as a group tool with squadron level features.  When you use MCT, you will first need to create a profile, each profile you create may contain one or more 'patches' which can be seen as identities that belong to your profile.
