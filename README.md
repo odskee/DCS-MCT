@@ -9,7 +9,7 @@ MCT is currently in Beta phase 1 and is only available on an invite basis.  Whil
 <br />
 
 # How to Join
-To find out more and join the discussion on MCT, head over to our Discord at [https://discord.gg/pBqbPpqeTZ](https://discord.gg/Jvx43ZYM)
+To find out more and join the discussion on MCT, head over to our Discord at [https://discord.gg/pBqbPpqeTZ](https://discord.gg/pBqbPpqeTZ)
 
 <br />
 
