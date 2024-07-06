@@ -1,0 +1,296 @@
+﻿<html>    
+    <head>
+        <title>Asset Sheet</title>
+        
+        <style type="text/css">
+            .tg {
+                border-collapse: collapse;
+                border-spacing: 0;
+                width: 750px;
+            }
+
+            .tg td {
+                border-color: black;
+                border-style: solid;
+                border-width: 1px;
+                font-family: Arial, sans-serif;
+                font-size: 12px;
+                overflow: hidden;
+                padding: 5px 2px;
+                word-break: normal;
+                text-align: center !important;
+                background-color: white;
+                color: black;
+            }
+
+            .tg th {
+                border-color: black;
+                border-style: solid;
+                border-width: 1px;
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+                font-weight: normal;
+                overflow: hidden;
+                padding: 5px 2px;
+                word-break: normal;
+            }
+
+            .tg .tg-cly1 {
+                text-align: left;
+                vertical-align: middle
+            }
+
+            .tg .tg-2b7s {
+                text-align: right;
+                vertical-align: bottom
+            }
+
+            .tg .tg-3ikv {
+                background-color: #D9D9D9;
+                text-align: center;
+                vertical-align: bottom
+            }
+
+            .tg .tg-o4ah {
+                background-color: #D9D9D9;
+                text-align: center;
+                vertical-align: middle
+            }
+
+            .tg .tg-7zrl {
+                text-align: left;
+                vertical-align: bottom
+            }
+
+            .tg .tg-2m49 {
+                background-color: #D9D9D9;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-8d8j {
+                text-align: center;
+                vertical-align: bottom
+            }
+
+            .tg .tg-tpnj {
+                background-color: #666;
+                color: #D9D9D9;
+                text-align: center;
+                vertical-align: bottom
+            }
+
+            .tg .tg-0lax {
+                text-align: left;
+                vertical-align: top
+            }
+
+            .tg .tg-u4qn {
+                background-color: #D9D9D9;
+                text-align: left;
+                vertical-align: bottom
+            }
+        </style>
+    </head>
+
+
+    <body>
+        <table class="tg">
+            <thead>
+                <tr>
+                    <th class="tg-7zrl" colspan="3">OPERATION: [[TACOP_NAME]]</th>
+                    <th class="tg-7zrl" colspan="4">FLIGHT: [[ASSET_CALLSIGN]]</th>
+                    <th class="tg-2b7s" colspan="2">[[MCT]]</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">DAY/NIGHT</span></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">T/O</span></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">STEP</span></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">TASK</span></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">THEATRE</span></td>
+                    <td class="tg-2m49" rowspan="2">FUEL</td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">TOTAL</span></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">JOKER</span></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">BINGO</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-7zrl">[[TACOP_DAY]]</td>
+                    <td class="tg-7zrl">[[ASSET_WHEELSUP]]</td>
+                    <td class="tg-7zrl">[[ASSET_STEP_TIME]]</td>
+                    <td class="tg-7zrl">[[ASSET_PRI_TASKTYPE]]</td>
+                    <td class="tg-8d8j">[[TACOP_THEATRE]]</td>
+                    <td class="tg-8d8j">[[ASSET_FUEL_TOT]]</td>
+                    <td class="tg-8d8j">[[ASSET_JOKER]]</td>
+                    <td class="tg-8d8j">[[ASSET_BINGO]]</td>
+                </tr>
+                <tr>
+                    <td class="tg-tpnj" colspan="9"><span style="color:#D9D9D9;background-color:#666">TARGET</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-2m49" rowspan="[[FUNC(ADD,ASSET_TARGET_COUNT,1)]]">TARGET PRI</td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">NAME</span></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">THREAT</span></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">CLASS</span></td>
+                    <td class="tg-3ikv" colspan="2"><span style="background-color:#D9D9D9">LATITUDE</span></td>
+                    <td class="tg-3ikv" colspan="2"><span style="background-color:#D9D9D9">LATITUDE</span></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">ELE/ALT</span></td>
+                </tr>
+                [[TARGET_LIST_START]]
+                <tr>
+                    <td class="tg-0lax">[[TARGET_NAME]]</td>
+                    <td class="tg-0lax">[[TARGET_THREAT]]</td>
+                    <td class="tg-0lax">[[TARGET_CLASS]]</td>
+                    <td class="tg-0lax" colspan="2">[[TARGET_GEO_LAT]]</td>
+                    <td class="tg-0lax" colspan="2">[[TARGET_GEO_LON]]</td>
+                    <td class="tg-0lax">[[TARGET_GEO_ELE]] / [[TARGET_GEO_ELE]]</td>
+                </tr>
+                [[TARGET_LIST_END]]
+                <tr>
+                    <td class="tg-2m49" rowspan="2">REMARKS</td>
+                    <td class="tg-0lax" colspan="8" rowspan="2">[[ASSET_TAC_PLAN]]</td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td class="tg-tpnj" colspan="9"><span style="color:#D9D9D9;background-color:#666">FLIGHT</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-u4qn"><span style="background-color:#D9D9D9">MODEX</span></td>
+                    <td class="tg-u4qn"><span style="background-color:#D9D9D9">CALLSIGN</span></td>
+                    <td class="tg-u4qn"><span style="background-color:#D9D9D9">PILOT</span></td>
+                    <td class="tg-u4qn" colspan="2"><span style="background-color:#D9D9D9">LOADOUT</span></td>
+                    <td class="tg-u4qn" colspan="4"><span style="background-color:#D9D9D9">REMARKS</span></td>
+                </tr>
+                [[PTCPNT_LIST_START]]
+                <tr>
+                    <td class="tg-7zrl">[[PTCPNT_MODEX]]</td>
+                    <td class="tg-7zrl">[[PTCPNT_CALLSIGN]]</td>
+                    <td class="tg-7zrl">[[PTCPNT_PNAME]]</td>
+                    <td class="tg-7zrl" colspan="2">[[PTCPNT_LOADOUT_FULL]]</td>
+                    <td class="tg-7zrl" colspan="4">[[PTCPNT_REMARKS]]</td>
+                </tr>
+                [[PTCPNT_LIST_END]]
+                <tr>
+                    <td class="tg-tpnj" colspan="9"><span style="color:#D9D9D9;background-color:#666">TIMELINE</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">EVENT</span></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">TIME</span></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">COMM</span></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">WAYPOINT</span></td>
+                    <td class="tg-o4ah" colspan="5"><span style="background-color:#D9D9D9">REMARKS</span></td>
+                </tr>
+                [[EVENT_LIST_START]]
+                <tr>
+                    <td class="tg-7zrl">[[EVENT_NAME]]</td>
+                    <td class="tg-7zrl">[[EVENT_TIME]]</td>
+                    <td class="tg-7zrl">[[EVENT_COMM]]</td>
+                    <td class="tg-7zrl">[[EVENT_WP]]</td>
+                    <td class="tg-7zrl" colspan="5">[[EVENT_REMARKS]]</td>
+                </tr>
+                [[EVENT_LIST_END]]
+                <tr>
+                    <td class="tg-tpnj" colspan="9"><span style="color:#D9D9D9;background-color:#666">WAYPOINTS</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">WP</span></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">NAME</span></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">ETA</span></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">SPEED</span></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">ALT / ELE</span></td>
+                    <td class="tg-o4ah" colspan="2"><span style="background-color:#D9D9D9">LATITUDE</span></td>
+                    <td class="tg-3ikv" colspan="2"><span style="background-color:#D9D9D9">LONGITUDE</span></td>
+                </tr>
+                [[WAYPOINT_LIST_START]]
+                <tr>
+                    <td class="tg-7zrl">[[WAYPOINT_NUMBER]]</td>
+                    <td class="tg-7zrl">[[WAYPOINT_NAME]]</td>
+                    <td class="tg-7zrl">[[WAYPOINT_ETA]]</td>
+                    <td class="tg-7zrl">[[WAYPOINT_SPD]]</td>
+                    <td class="tg-7zrl">
+                        [[WAYPOINT_ALT]] /
+                        [[WAYPOINT_ELE]]
+                    </td>
+                    <td class="tg-7zrl" colspan="2">[[WAYPOINT_GEO_LAT]]</td>
+                    <td class="tg-7zrl" colspan="2">[[WAYPOINT_GEO_LON]]</td>
+                </tr>
+                [[WAYPOINT_LIST_END]]
+                <tr>
+                    <td class="tg-tpnj" colspan="9"><span style="color:#D9D9D9;background-color:#666">COMMAND AND SIGNAL</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">CALLSIGN</span></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">NAME</span></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">CHANNEL</span></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">FREQ</span></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">TACAN</span></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">ALT</span></td>
+                    <td class="tg-3ikv" colspan="3"><span style="background-color:#D9D9D9">REMARKS</span></td>
+                </tr>
+                [[CMDASSET_LIST_START]]
+                <tr>
+                    <td class="tg-7zrl">[[CMDASSET_CALLSIGN]]</td>
+                    <td class="tg-7zrl">[[CMDASSET_TYPE]]</td>
+                    <td class="tg-7zrl">[[CMDASSET_CHAN]]</td>
+                    <td class="tg-7zrl">[[CMDASSET_FREQ]]</td>
+                    <td class="tg-7zrl">[[CMDASSET_TCN]]</td>
+                    <td class="tg-7zrl">[[CMDASSET_ALT]]</td>
+                    <td class="tg-7zrl" colspan="3">[[CMDASSET_REMARKS]]</td>
+                </tr>
+                [[CMDASSET_LIST_END]]
+                <tr>
+                    <td class="tg-tpnj" colspan="9"><span style="color:#D9D9D9;background-color:#666">ARRIVAL / DEPARTURE / DIVERTS</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-u4qn"></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">NAME</span></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">TOWER</span></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">MGRS</span></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">TACAN</span></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">RUNWAY</span></td>
+                    <td class="tg-3ikv" colspan="3"><span style="background-color:#D9D9D9">REMARKS</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-u4qn"><span style="background-color:#D9D9D9">Departure</span></td>
+                    <td class="tg-7zrl">[[ASSET_DEPT_NAME]]</td>
+                    <td class="tg-7zrl">[[ASSET_DEPT_TWR]]</td>
+                    <td class="tg-7zrl">[[ASSET_DEPT_MGRS]]</td>
+                    <td class="tg-7zrl">[[ASSET_DEPT_TCN]]</td>
+                    <td class="tg-7zrl">[[ASSET_DEPT_RNYW]]</td>
+                    <td class="tg-7zrl" colspan="3">[[ASSET_DEPT_REMARKS]]</td>
+                </tr>
+                <tr>
+                    <td class="tg-u4qn"><span style="background-color:#D9D9D9">Arrival</span></td>
+                    <td class="tg-7zrl">[[ASSET_ARRV_NAME]]</td>
+                    <td class="tg-7zrl">[[ASSET_ARRV_TWR]]</td>
+                    <td class="tg-7zrl">[[ASSET_ARRV_MGRS]]</td>
+                    <td class="tg-7zrl">[[ASSET_ARRV_TCN]]</td>
+                    <td class="tg-7zrl">[[ASSET_ARRV_RNYW]]</td>
+                    <td class="tg-7zrl" colspan="3">[[ASSET_ARRV_REMARKS]]</td>
+                </tr>
+                <tr>
+                    <td class="tg-u4qn"><span style="background-color:#D9D9D9">Divert</span></td>
+                    <td class="tg-7zrl">[[ASSET_DVRT_NAME]]</td>
+                    <td class="tg-7zrl">[[ASSET_DVRT_TWR]]</td>
+                    <td class="tg-7zrl">[[ASSET_DVRT_MGRS]]</td>
+                    <td class="tg-7zrl">[[ASSET_DVRT_TCN]]</td>
+                    <td class="tg-7zrl">[[ASSET_DVRT_RNYW]]</td>
+                    <td class="tg-7zrl" colspan="3">[[ASSET_DVRT_REMARKS]]</td>
+                </tr>
+                [[SP_LIST_START]]
+                <tr>
+                    <td class="tg-u4qn"><span style="background-color:#D9D9D9">In-Op</span></td>
+                    <td class="tg-7zrl">[[SP_NAME]]</td>
+                    <td class="tg-7zrl">[[SP_FREQ_TOWER]]</td>
+                    <td class="tg-7zrl">[[SP_GEO_MGRS]]</td>
+                    <td class="tg-7zrl">[[SP_TACAN]]</td>
+                    <td class="tg-7zrl">[[SP_RNWY]]</td>
+                    <td class="tg-7zrl" colspan="3">[[SP_REMAKRS]]</td>
+                </tr>
+                [[SP_LIST_END]]
+            </tbody>
+        </table>
+    </body>
+</html>

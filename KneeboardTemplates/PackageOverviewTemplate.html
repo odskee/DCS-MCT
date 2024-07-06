@@ -1,0 +1,185 @@
+﻿<html>
+    <head>
+        <title>Package Overview</title>
+
+        <style type="text/css">
+            .tg {
+                border-collapse: collapse;
+                border-spacing: 0;
+                width: 750px;
+            }
+
+            .tg td {
+                border-color: black;
+                border-style: solid;
+                border-width: 1px;
+                font-family: Arial, sans-serif;
+                font-size: 12px;
+                overflow: hidden;
+                padding: 5px 2px;
+                word-break: normal;
+                text-align: center !important;
+                background-color: white;
+                color: black;
+            }
+
+            .tg th {
+                border-color: black;
+                border-style: solid;
+                border-width: 1px;
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+                font-weight: normal;
+                overflow: hidden;
+                padding: 5px 2px;
+                word-break: normal;
+            }
+
+            .tg .tg-2b7s {
+                text-align: right;
+                vertical-align: bottom
+            }
+
+            .tg .tg-3ikv {
+                background-color: #D9D9D9;
+                text-align: center;
+                vertical-align: bottom
+            }
+
+            .tg .tg-f9n4 {
+                background-color: #666;
+                text-align: left;
+                vertical-align: bottom
+            }
+
+            .tg .tg-7zrl {
+                text-align: left;
+                vertical-align: bottom
+            }
+
+            .tg .tg-2m49 {
+                background-color: #D9D9D9;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-0lax {
+                text-align: left;
+                vertical-align: top
+            }
+
+            .tg .tg-tpnj {
+                background-color: #666;
+                color: #D9D9D9;
+                text-align: center;
+                vertical-align: bottom
+            }
+        </style>
+    </head>
+    
+    <body>
+        <table class="tg">
+            <thead>
+                <tr>
+                    <th class="tg-7zrl" colspan="5">OPERATION: [[TACOP_NAME]]</th>
+                    <th class="tg-7zrl" colspan="2">PACKAGE: [[PACKAGE_NAME]]</th>
+                    <th class="tg-2b7s" colspan="2">[[MCT]]</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">DATE / TIME</span></td>
+                    <td class="tg-3ikv" colspan="2"><span style="background-color:#D9D9D9">BRIEF DATE/TIME</span></td>
+                    <td class="tg-3ikv" colspan="4"><span style="background-color:#D9D9D9">BRIEFING LOCATION</span></td>
+                    <td class="tg-3ikv" colspan="2"><span style="background-color:#D9D9D9">PACKAGE FREQ</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-7zrl">[[TACOP_DATETIME]]</td>
+                    <td class="tg-7zrl" colspan="2">[[PACKAGE_BRIEF_TIME]]</td>
+                    <td class="tg-7zrl" colspan="4">[[PACKAGE_BRIEF_LOCATION]]</td>
+                    <td class="tg-7zrl" colspan="2">[[PACKAGE_FREQ]]</td>
+                </tr>
+                <tr>
+                    <td class="tg-2m49" rowspan="6">PRIMARY OBJECTIVE</td>
+                    <td class="tg-0lax" colspan="8" rowspan="6">[[PACKAGE_PRI_OBJECTIVE]]</td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td class="tg-2m49" rowspan="6">SECONDARY OBJECTIVE</td>
+                    <td class="tg-0lax" colspan="8" rowspan="6">[[PACKAGE_SEC_OBJECTIVE]]</td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td class="tg-2m49" rowspan="6">PACKAGE REMARKS</td>
+                    <td class="tg-0lax" colspan="8" rowspan="6">[[PACKAGE_REMARKS]]</td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td class="tg-tpnj" colspan="9"><span style="color:#D9D9D9;background-color:#666">PACKAGES</span></td>
+                </tr>
+                <tr>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">NAME</span></td>
+                    <td class="tg-3ikv" colspan="2"><span style="background-color:#D9D9D9">BRIEF DATE/TIME</span></td>
+                    <td class="tg-3ikv" colspan="2"><span style="background-color:#D9D9D9">PACKAGE FREQ</span></td>
+                    <td class="tg-3ikv"><span style="background-color:#D9D9D9">ASSETS</span></td>
+                    <td class="tg-3ikv" colspan="3"><span style="background-color:#D9D9D9">REMARKS</span></td>
+                </tr>
+                [[PKG_LIST_START]]
+                <tr>
+                    <td class="tg-7zrl">[[PACKAGE_NAME]]</td>
+                    <td class="tg-7zrl" colspan="2">[[PACKAGE_BRIEF_DATETIME]]</td>
+                    <td class="tg-7zrl" colspan="2">[[PACKAGE_FREQ]]</td>
+                    <td class="tg-7zrl">[[PACKAGE_ASSET_COUNT]]</td>
+                    <td class="tg-7zrl" colspan="3">[[PACKAGE_REMARKS_SHORT]]</td>
+                </tr>
+                [[PKG_LIST_END]]
+
+                <tr>
+                    <td class="tg-f9n4" colspan="9"></td>
+                </tr>
+                <tr>
+                    <td class="tg-2m49" rowspan="6">MY NOTES</td>
+                    <td class="tg-0lax" colspan="4" rowspan="6"></td>
+                    <td class="tg-0lax" colspan="4" rowspan="6"></td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

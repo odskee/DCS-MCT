@@ -1,148 +1,154 @@
-﻿<body class="Kbody">
-    <div id="ig6l" class="gjs-row FlightBar">
-        [[Flight_Name]]
-    </div>
-    <div id="ig6l" class="gjs-row HeadBar">
-        <div id="ile8" class="gjs-cell flex-basis87">
-            <div id="i8aq8">
-                NAME
-                <br />Type
+﻿<html>
+    <head>
+        <title>Asset NavLog</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            .Kbody {
+            }
+
+            .gjs-row {
+                display: flex;
+                justify-content: flex-start;
+                align-items: stretch;
+                flex-wrap: nowrap;
+                padding: 10px;
+            }
+
+            .gjs-cell {
+                min-height: 75px;
+                flex-grow: 1;
+                flex-basis: 100%;
+            }
+
+            .InfoCell {
+                max-width: 130px;
+            }
+
+            .NavCell {
+                min-width: 180px;
+            }
+
+            .InfoCellWide {
+                max-width: 250px;
+            }
+
+            .HeadBar {
+                background-color: #000 !important;
+                font-family: Arial Black, Gadget, sans-serif;
+                color: #ffffff;
+            }
+
+            .FlightBar {
+                background-color: #000 !important;
+                font-family: Arial Black, Gadget, sans-serif;
+                color: #ffffff;
+                max-height: 50px;
+            }
+
+            .InfoRowOdd {
+                font-family: Verdana, Geneva, sans-serif;
+                color: #000 !important;
+                background-color: white;
+            }
+
+                .InfoRowOdd:nth-of-type(even) {
+                    background: #CCC !important;
+                }
+
+            .flex201 {
+                flex-basis: 201%;
+            }
+        </style>
+    </head>
+
+    <body class="Kbody">
+        <div id="ig6l" class="gjs-row FlightBar">
+            [[ASSET_CALLSIGN]]
+        </div>
+        <div id="ig6l" class="gjs-row HeadBar">
+            <div id="ile8" class="gjs-cell flex-basis87">
+                <div id="i8aq8">
+                    NAME
+                    <br />Type
+                </div>
+            </div>
+            <div id="i1i5l" class="gjs-cell flex-basis87">
+            </div>
+            <div id="i3zs" class="gjs-cell">
+                <div id="izgpk">
+                    HDG TO NXT
+                    <br /> DST TO NXT
+                </div>
+            </div>
+            <div id="iey9" class="gjs-cell flex-basis87">
+                <div id="itkh7">
+                    ETE
+                </div>
+            </div>
+            <div id="iyjy" class="gjs-cell flex-basis87">
+                <div id="ilt8u">
+                    ETA
+                    <br />Duration
+                </div>
+            </div>
+            <div id="i76k" class="gjs-cell flex-basis87">
+                <div id="iw5iv">
+                    ALTITUDE
+                    <br />Elevation
+                </div>
+            </div>
+            <div id="iit6" class="gjs-cell flex-basis87 NavCell">
+                <div id="izppt">
+                    POSITION
+                </div>
             </div>
         </div>
-        <div id="i1i5l" class="gjs-cell flex-basis87">
-        </div>
-        <div id="iit6" class="gjs-cell flex-basis87 NavCell">
-            <div id="izppt">
-                POSITION
-                <br />Distance
+        [[WAYPOINT_LIST_START]]
+        <div id="i05kl" class="gjs-row InfoRowOdd">
+            <div id="i3ecl" class="gjs-cell InfoCellWide flex201">
+                <div id="i7onk">
+                    [[WAYPOINT_NUMBER]]: 
+                    <strong>[[WAYPOINT_NAME]]</strong>
+                    <br />[[WAYPOINT_TYPE]]
+                </div>
+            </div>
+            <div id="ik3fv" class="gjs-cell InfoCell flex-basis87">
+                <div id="itnww">
+                    [[WAYPOINT_HDG]]
+                    <br />[[WAYPOINT_NDIST]]
+                </div>
+            </div>
+            <div id="imp7c" class="gjs-cell InfoCell flex-basis87">
+                <div id="ivogl">
+                    [[WAYPOINT_ETE]]
+                </div>
+            </div>
+            <div id="i2vyu" class="gjs-cell InfoCell flex-basis87">
+                <div id="ir01f">
+                    [[WAYPOINT_ETA]]
+                    <br />[[WAYPOINT_DUR]]
+                </div>
+            </div>
+            <div id="i3cnu" class="gjs-cell InfoCell flex-basis87">
+                <div id="ii27c">
+                    [[WAYPOINT_ALT]]
+                    <br />[[WAYPOINT_ELE]]
+                </div>
+            </div>
+            <div id="ijmxi" class="gjs-cell flex-basis87">
+                <div id="i7v9h" class="NavCell">
+                    [[WAYPOINT_GEO_LAT]]
+                    <br />[[WAYPOINT_GEO_LON]]
+                </div>
             </div>
         </div>
-        <div id="iey9" class="gjs-cell flex-basis87">
-            <div id="itkh7">
-                ETE
-            </div>
-        </div>
-        <div id="iyjy" class="gjs-cell flex-basis87">
-            <div id="ilt8u">
-                ETA
-                <br />Duration
-            </div>
-        </div>
-        <div id="i76k" class="gjs-cell flex-basis87">
-            <div id="iw5iv">
-                ALTITUDE
-                <br />Elevation
-            </div>
-        </div>
-        <div id="i3zs" class="gjs-cell">
-            <div id="izgpk">
-                HEADING
-                <br />
-            </div>
-        </div>
-    </div>
-    [[WAYPOINT_LIST_START]]
-    <div id="i05kl" class="gjs-row InfoRowOdd">
-        <div id="i3ecl" class="gjs-cell InfoCellWide flex201">
-            <div id="i7onk">
-                [[WAYPOINT NAME]]
-                <br />[[WAYPOINT TYPE]]
-            </div>
-        </div>
-        <div id="ijmxi" class="gjs-cell flex-basis87">
-            <div id="i7v9h" class="NavCell">
-                [[LAT]]
-                <br />[[LON]]
-                <br />[[NDIST]]
-            </div>
-        </div>
-        <div id="imp7c" class="gjs-cell InfoCell flex-basis87">
-            <div id="ivogl">
-                [[ETE]]
-            </div>
-        </div>
-        <div id="i2vyu" class="gjs-cell InfoCell flex-basis87">
-            <div id="ir01f">
-                [[ETA]]
-                <br />[[DUR]]
-            </div>
-        </div>
-        <div id="i3cnu" class="gjs-cell InfoCell flex-basis87">
-            <div id="ii27c">
-                [[ALT]]
-                <br />[[ELE]]
-            </div>
-        </div>
-        <div id="ik3fv" class="gjs-cell InfoCell flex-basis87">
-            <div id="itnww">
-                [[HDG]]
-            </div>
-        </div>
-    </div>
-    [[WAYPOINT_LIST_END]]
-</body>
-<style>
-    * {
-        box-sizing: border-box;
-    }
-
-    * {
-        box-sizing: border-box;
-    }
-
-	.Kbody{
-	}
-
-    .gjs-row {
-        display: flex;
-        justify-content: flex-start;
-        align-items: stretch;
-        flex-wrap: nowrap;
-        padding: 10px;
-    }
-
-    .gjs-cell {
-        min-height: 75px;
-        flex-grow: 1;
-        flex-basis: 100%;
-    }
-
-    .InfoCell {
-        max-width: 130px;
-    }
-
-    .NavCell {
-        min-width: 180px;
-    }
-
-    .InfoCellWide {
-        max-width: 250px;
-    }
-
-    .HeadBar {
-        background-color: #000 !important;
-        font-family: Arial Black, Gadget, sans-serif;
-        color: #ffffff;
-    }
-
-	.FlightBar {
-		background-color: #000 !important;
-		font-family: Arial Black, Gadget, sans-serif;
-		color: #ffffff;
-		max-height: 50px;
-	}
-
-    .InfoRowOdd {
-        font-family: Verdana, Geneva, sans-serif;
-        color: #000 !important;
-		background-color: white;
-    }
-
-    .InfoRowOdd:nth-of-type(even) {
-        background: #CCC !important;
-    }
-
-    .flex201 {
-        flex-basis: 201%;
-    }
-</style>
+        [[WAYPOINT_LIST_END]]
+    </body>
+</html>
