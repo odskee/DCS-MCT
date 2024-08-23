@@ -83,7 +83,7 @@ MCT and MCT Online is currently in pre-release and open to willing testers.  To 
 <br />
 
 # Licensing
-MCT is built by a single developer largely as a passion project and the decision to licence MCT was not taken lightly.  A small amount of funds made through licensing will cover the hosting and on-going upkeep and improvements to MCT and MCT Online.  The larger portion will be made directly available to AndCare UK; a new not-for-profit startup (by the developer of MCT) whose goal is to provide accessible civilian reintegration training for members of NATO based Armed Forces using modern approaches to both mental health and digital / virtual technologies and environments.
+MCT is built by a single developer largely as a passion project and the decision to licence MCT was not taken lightly.  A small amount of funds made through licensing will cover the hosting and on-going upkeep and improvements to MCT and MCT Online.  The larger portion will be made directly available to AndCare UK; a not-for-profit startup (by the developer of MCT) whose goal is to provide accessible civilian reintegration training for members of NATO based Armed Forces using modern approaches to mental health and both real-world / virtual technologies and environments.
 
 <br />
 The final cost of MCT nor the mechanism of MCT Online integration is not yet decided but very likely to be around £40 GBP.  Currently, MCT is available to anyone eager & willing to test, see How to Join above.
