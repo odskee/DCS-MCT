@@ -20,7 +20,7 @@ MCT has a continually growing list of features; some of which are still being de
   <ul>
     <li>Add intel individually or import from another operation</li>
     <li>Declare threat types, range and location descriptions of Intel</li>
-    <li>Attach external resources (links etc.) and File to intel items</li>
+    <li>Attach external resources (links etc.) and Files to intel items</li>
   </ul>
   <li>Advanced Package management - Build your packages either from scratch or using imported units from an existing MilSim operation</li>
   <ul>
