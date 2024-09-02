@@ -53,7 +53,8 @@ MCT has a continually growing list of features; some of which are still being de
     <li>Export kneeboards as Png, Jpg, HTML and PDF files including compress to Zip option</li>
     <li>Add custom kneeboards from others quickly without restarting MCT</li>
   </ul>
-  <li>Database Powered - TacOps are saved by default to an internal database, reducing the amount of file clutter</li>
+  <li>(In development) Real-Time player contributions - A separate light-weight stream tool to feed your MP server actions in real-time to MCT Online for Intel synchronisation for other players</li>
+  <li>(In development) Real-Time server contributions - A set of tools to allow MP server owners to contribute actions in real-time to MCT Online for Intel synchronisation for other players</li>
   <li>Integrated Help available for each section when building TacOps - See Help at the top</li>
   <li>Pin TacOps for easy access on application start</li>
   <li>(In early development) TacRes Manager - Analyse your flight against a TacOp you've created / participated in</li>
@@ -73,6 +74,7 @@ In addition, MCT Online is currently being developed to bring the following feat
   </ul>
   <li>(In development) Real-Time Op building - collaboratively build Ops with other MCT users seeing changes applied in real-time</li>
   <li>(In development) Multi-Stage building - "Lock" certain parts of the Operation build, allowing other participants to contribute (i.e. Flight Leads)</li>
+  
 </ul>
 
 <br />
